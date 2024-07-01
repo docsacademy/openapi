@@ -3,7 +3,7 @@ window.onload = function() {
 
   // the following lines will be replaced by docker/configurator, when it runs in a docker-container
   window.ui = SwaggerUIBundle({
-    url: "fax4a-api.json",
+    url: "fax4a-api.yaml",
     dom_id: '#swagger-ui',
     deepLinking: true,
     presets: [
